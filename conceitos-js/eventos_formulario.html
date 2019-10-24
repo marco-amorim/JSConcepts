@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>JavaScript</title>
+
+        <script>
+        
+        function acao1() {
+
+            alert('Evento 1 disparado')
+        }
+
+        function acao2() {
+
+            alert('Evento 2 disparado')
+        }
+        
+
+        </script>
+
+        <body>
+
+            <input onfocus="console.log('recebeu o foco')" onblur="console.log('perdeu o foco')" type="text" />
+
+            <select onchange="console.log('Estado onchange modificado')">
+
+                <option>-- Selecione --</option>
+                <option value='1'>Primeira Opcao</option>
+                <option value='2'>Segunda Opcao</option>
+
+
+            </select>
+
+           
+
+        </body>
+
+    </head>
+
+</html>
